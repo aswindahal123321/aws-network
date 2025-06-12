@@ -32,3 +32,8 @@ variable "env" {
   description = "Deployment Environment"
 }
 
+
+variable "public_subnet_cidrs" {
+  description = "List of public subnet CIDRs"
+  type        = list(string)
+}
